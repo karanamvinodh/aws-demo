@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-docker push karanamvinodh/simple-python-app:latest
+docker pull karanamvinodh/simple-python-app:latest
 
 # Run the Docker image as a container
 docker run -d -p 5000:5000 karanamvinodh/simple-python-app
